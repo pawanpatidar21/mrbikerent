@@ -1,0 +1,87 @@
+.headerContainer{
+    background-color: #E3F6FC;
+    height: 128px;
+    display: flex;
+
+}
+
+.headerImage{
+    width: 41%;
+    padding: 0 10px;
+ 
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
+    gap: 30px;
+}
+.headerContent>p{
+margin: 8px;
+
+font-size: 13px;
+
+}
+.icon{
+color: #000000;
+font-size: 16px;
+
+}
+
+.headerContent>p{
+    font-weight: bolder;
+}
+.headerContent>p:nth-child(2){
+color: #006650;
+}
+.headerForm{
+    width: 50%;
+        padding: 0 20px;
+}
+.formUser{
+    display: flex;
+    align-items: center;
+    height: 32px;
+    border-bottom: 1.5px solid #D4E9F0;
+
+
+;
+}
+
+
+.form{
+    display: flex;
+   gap: 10px;
+}
+.inputItem{
+    height: 22px;
+        width: 125px;
+}
+.formControl{
+    display: flex;
+  
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.formControl>label{
+    font-size: 14px;
+}
+.loginButton{
+
+display: flex;
+align-items: flex-end;
+width: 89px;
+margin: 3px;
+height: auto;
+
+
+}
+.loginButton>button{
+    width: 89px;
+    height: 24px;
+    background-color: #3F3F3F;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
